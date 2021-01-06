@@ -627,6 +627,7 @@ select::-ms-expand {
 
 .typesItem-text {
     font-size: 19px;
+    margin: inherit;
 }
 
 .types-item {
@@ -777,12 +778,18 @@ select::-ms-expand {
 }
 
 .how-itemsBlock {
-    margin-top: -174px;
+    margin-top: -130px;
 }
 
 .how-img {
     width: 100%;
     display: block;
+    border-radius: 50%;
+    border: 8px solid #f0dbd8;
+    margin-bottom: 15px;
+    -webkit-box-shadow: 3px 3px 7px 3px #0002;
+    -moz-box-shadow: 3px 3px 7px 3px #0002;
+    box-shadow: 3px 3px 7px 3px #0002;
 }
 
 .how-item-2 {
