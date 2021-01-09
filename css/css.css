@@ -891,6 +891,20 @@ select::-ms-expand {
     background-color: #ffffff;
 }
 
+.map-block {
+    padding: 80px 0 20px;
+}
+
+.sertificat {
+    padding: 80px 0 70px;
+    background: url("../img/immun-bg.png") no-repeat center;
+}
+
+.sertificat-img-wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
 .comment .container {
     max-width: 1100px;
 }
