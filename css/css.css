@@ -106,7 +106,7 @@ footer {
     padding: 7px 8px 5px;
     background: linear-gradient(to bottom, #ffffff 70%, #efefef);
     border-radius: 5px;
-    max-width: 140px;
+    max-width: 215px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -390,6 +390,7 @@ select::-ms-expand {
 
 .danger {
     font-family: 'RobotoCondensed Regular';
+    background: #e3dbd4;
 }
 
 .danger-title {
@@ -468,7 +469,7 @@ select::-ms-expand {
 }
 
 .sick {
-    background: url("../img/sick-bg.png") no-repeat center;
+    background: url("../img/bg2.png") no-repeat center;
     background-size: cover;
     padding: 150px 0 125px;
     position: relative;
@@ -594,6 +595,7 @@ select::-ms-expand {
 .types {
     padding: 120px 0;
     background: url("../img/types-bg.png") no-repeat center;
+    background: #e3dbd4;
     background-size: cover;
 }
 
@@ -611,11 +613,14 @@ select::-ms-expand {
     margin-bottom: 30px;
 }
 
-.typesItem-title,
 .types-title,
-.types-subTitle,
+.types-subTitle {
+    color: #000;
+}
+
+.typesItem-title,
 .typesItem-text {
-    color: #ffffff;
+    color: #000;
 }
 
 .typesItem-title {
@@ -637,6 +642,7 @@ select::-ms-expand {
 
 .types-item_left {
     background: linear-gradient(135deg, #8332ab, #4aafc3);
+    background: #d0c9c2;
     position: relative;
     opacity: 0;
 }
@@ -647,6 +653,7 @@ select::-ms-expand {
 
 .types-item_right {
     background: linear-gradient(135deg, #9189de 10%, #c62ca4 60%, #f78310);
+    background: #d0c9c2;
     max-width: 390px;
     flex: 0 0 390px;
     width: 100%;
@@ -671,7 +678,7 @@ select::-ms-expand {
 }
 
 .consist .container:after {
-    content: 'Cannabis Oil';
+    content: '1753 COSMITICS';
     white-space: nowrap;
     font-size: 257px;
     position: absolute;
@@ -910,6 +917,7 @@ select::-ms-expand {
 .sertificat {
     padding: 80px 0 70px;
     background: url("../img/immun-bg.png") no-repeat center;
+    background: #f5f5f5;
 }
 
 .sertificat-img-wrap img {
