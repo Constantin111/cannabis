@@ -368,7 +368,7 @@ select::-ms-expand {
     right: 0;
     left: 0;
     margin: auto;
-    max-width: 940px;
+    max-width: 400px;
     width: 100%;
 }
 
@@ -878,7 +878,7 @@ select::-ms-expand {
     top: 0;
     bottom: 0;
     margin: auto;
-    background: url("../img/spec-sign.png") no-repeat center;
+    /*background: url("../img/spec-sign.png") no-repeat center;*/
     width: 171px;
     height: 93px;
 }
@@ -891,6 +891,28 @@ select::-ms-expand {
 
 .spec-prof {
     color: #737373;
+}
+
+.where-by {
+    background: #e3dbd4;
+    padding: 80px 0 70px;
+}
+
+.where-by-block {
+    text-align: center;
+}
+
+.where-by-block a {
+    display: inline-block;
+    padding: 30px;
+}
+
+.where-by-block a:hover {
+    background: #9189de;
+}
+
+.where-by-block a img {
+    height: 220px;
 }
 
 .comment {
@@ -911,7 +933,7 @@ select::-ms-expand {
 }
 
 .map-block {
-    padding: 80px 0 20px;
+    padding: 80px 0 0px;
 }
 
 .sertificat {
