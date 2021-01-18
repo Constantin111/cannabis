@@ -390,7 +390,7 @@ select::-ms-expand {
 
 .danger {
     font-family: 'RobotoCondensed Regular';
-    background: #e3dbd4;
+    background: #eddddb;
 }
 
 .danger-title {
@@ -560,7 +560,7 @@ select::-ms-expand {
     left: -650px;
     right: 0;
     margin: auto;
-    max-width: 940px;
+    max-width: 580px;
     max-height: 570px;
     width: 100%;
     z-index: 3;
@@ -595,7 +595,7 @@ select::-ms-expand {
 .types {
     padding: 120px 0;
     background: url("../img/types-bg.png") no-repeat center;
-    background: #e3dbd4;
+    background: #eddddb;
     background-size: cover;
 }
 
@@ -642,7 +642,7 @@ select::-ms-expand {
 
 .types-item_left {
     background: linear-gradient(135deg, #8332ab, #4aafc3);
-    background: #d0c9c2;
+    background: #fff;
     position: relative;
     opacity: 0;
 }
@@ -653,7 +653,7 @@ select::-ms-expand {
 
 .types-item_right {
     background: linear-gradient(135deg, #9189de 10%, #c62ca4 60%, #f78310);
-    background: #d0c9c2;
+    background: #fff;
     max-width: 390px;
     flex: 0 0 390px;
     width: 100%;
@@ -950,6 +950,7 @@ select::-ms-expand {
 .set-qwestion {
     padding: 80px 0 70px;
     /*background: url(../img/spec-bg.png) no-repeat center;*/
+    background: #eddddb;
 }
 
 .slider {
@@ -1101,6 +1102,12 @@ select::-ms-expand {
 
     .danger-subTitle {
         margin-bottom: 10px;
+    }
+
+    .danger-icon-block img {
+        position: absolute;
+        left: -180px;
+        top: -150px;
     }
 
     .immun-productBlock {
