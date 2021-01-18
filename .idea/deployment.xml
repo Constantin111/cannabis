@@ -93,6 +93,13 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="nwclinic">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="stilyagi">
         <serverdata>
           <mappings>
